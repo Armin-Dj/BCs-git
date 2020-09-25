@@ -1,0 +1,40 @@
+A security steganography scheme based on hdr image -- https://arxiv.org/abs/1902.10943
+
+
+Definitions:
+
+DCT - discrete cosine transform : technique used in signal processing and data compression. 
+    Used in : 
+        Digital imaging: Jpeg & HEIF
+        Digital Video: MPEG & H.26x
+        Digital Audio: Dolby Digital, MP3, AAC
+        Digital Television: SDTV, HDTV, VOD
+        Digital Radio: AAC+, DAB+
+        Speech Coding: AAC-LD, Siren, Opus
+
+    It's a Fourier-related transform
+    Summary: Apprently the DTC is better because it uses cosine instead of sine functions, cosine requiring fewer equations to approximate a signal, 
+    also "differential equations the cosines express a particular choice of boundary conditions" -whatever this means.
+
+Bayesian optimization - it's used to determine a black box function's optimal parameters, assume the function's behaviour in a PRIOR. 
+                        then it gathers the data from the evaluation, and updates it with this data to the POSTERIOR which then this creates the next query point.
+Generative adversarial networks (GANs)- two machines fight each other in a game to get better
+
+
+
+
+Black-Box Watermarking for Generative Adversarial Networks - https://arxiv.org/pdf/2007.08457.pdf
+    
+    They use Machine Learning to let the computers learn how to embed watermark into photos and then the other party tries to break it(?). 
+
+
+STEGANOGRAPHY GAN: CRACKING STEGANOGRAPHY WITH CYCLE GENERATIVE ADVERSARIAL NETWORKS - https://arxiv.org/pdf/2006.04008.pdf
+
+    From my understanding, they use GANS and the Bayesian optimization to "crack" (??) the least significant bit (LSB) encoded by "Convolutional Autoencoders"
+
+
+
+
+    ==      Possible ideas      ==
+
+Research on how could you hide information inside an audio stream, 
