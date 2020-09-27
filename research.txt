@@ -32,9 +32,19 @@ STEGANOGRAPHY GAN: CRACKING STEGANOGRAPHY WITH CYCLE GENERATIVE ADVERSARIAL NETW
 
     From my understanding, they use GANS and the Bayesian optimization to "crack" (??) the least significant bit (LSB) encoded by "Convolutional Autoencoders"
 
+Two high capacity text steganography schemes based on color coding - https://arxiv.org/pdf/2004.00948.pdf
 
+    Uses two methods: Permutation and numeration systems.
+    
+    They have the following: 
+        A secret message which they want to encode.
+        A dummy message in which the code will be encrypted(stega'd) into.
+        A color pattern which will serve as the encryption/stega pattern to hide the secret message into the dummy message.
 
-
+    They call the final product "THE STEGO-TEXT"
+    They send the stego text by email 
     ==      Possible ideas      ==
 
 Research on how could you hide information inside an audio stream, 
+
+Two high capacity text steganography schemes based on color coding - https://arxiv.org/pdf/2004.00948.pdf
