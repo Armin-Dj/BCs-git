@@ -20,7 +20,7 @@ Bayesian optimization - it's used to determine a black box function's optimal pa
                         then it gathers the data from the evaluation, and updates it with this data to the POSTERIOR which then this creates the next query point.
 Generative adversarial networks (GANs)- two machines fight each other in a game to get better
 
-
+Zeckendorf's theorem - any positive integer can be written as a sum of any two non consecutive fibonacci numbers 
 
 
 Black-Box Watermarking for Generative Adversarial Networks - https://arxiv.org/pdf/2007.08457.pdf
@@ -43,6 +43,18 @@ Two high capacity text steganography schemes based on color coding - https://arx
 
     They call the final product "THE STEGO-TEXT"
     They send the stego text by email 
+
+Efficient High Capacity Steganography Technique - https://arxiv.org/ftp/arxiv/papers/2004/2004.11984.pdf
+
+    They proposed to take the limit from Zeckendorf's theorem for embedding and their embedded capacity extended to almost double when compared to fibonacci methods. 
+    It is also secure against RS, POV and DIH.
+
+Steganography Based on Pixel Intensity Value Decomposition - https://arxiv.org/ftp/arxiv/papers/2004/2004.11977.pdf
+
+    They are using a method based on 16 virtual bit-planes, the sum of all bit-planes does not exceed the 255 pixel intensity limit. This method has a better payload capacity/stego quality
+than other decomposition methods (doesn't say which).
+
+
     ==      Possible ideas      ==
 
 Research on how could you hide information inside an audio stream, 
