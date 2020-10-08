@@ -1,7 +1,7 @@
-A security steganography scheme based on hdr image -- https://arxiv.org/abs/1902.10943
 
 
-Definitions:
+
+        ==      Definitions     ==
 
 DCT - discrete cosine transform : technique used in signal processing and data compression. 
     Used in : 
@@ -23,16 +23,19 @@ Generative adversarial networks (GANs)- two machines fight each other in a game 
 Zeckendorf's theorem - any positive integer can be written as a sum of any two non consecutive fibonacci numbers 
 LZW - Lempel–Ziv–Welch - Compression algorithm, universal lossless data compression algorithm, used by many applications GIF, TIFF, PostScript, PDF, Unix Compress.
 
-Black-Box Watermarking for Generative Adversarial Networks - https://arxiv.org/pdf/2007.08457.pdf
+        ==      Articles read      ==
+        
+1. Black-Box Watermarking for Generative Adversarial Networks - https://arxiv.org/pdf/2007.08457.pdf
     
     They use Machine Learning to let the computers learn how to embed watermark into photos and then the other party tries to break it(?). 
 
+2. A security steganography scheme based on hdr image -- https://arxiv.org/abs/1902.10943
 
-STEGANOGRAPHY GAN: CRACKING STEGANOGRAPHY WITH CYCLE GENERATIVE ADVERSARIAL NETWORKS - https://arxiv.org/pdf/2006.04008.pdf
+3. STEGANOGRAPHY GAN: CRACKING STEGANOGRAPHY WITH CYCLE GENERATIVE ADVERSARIAL NETWORKS - https://arxiv.org/pdf/2006.04008.pdf
 
     From my understanding, they use GANS and the Bayesian optimization to "crack" (??) the least significant bit (LSB) encoded by "Convolutional Autoencoders"
 
-Two high capacity text steganography schemes based on color coding - https://arxiv.org/pdf/2004.00948.pdf
+4. Two high capacity text steganography schemes based on color coding - https://arxiv.org/pdf/2004.00948.pdf
 
     Uses two methods: Permutation and numeration systems.
     
@@ -44,18 +47,18 @@ Two high capacity text steganography schemes based on color coding - https://arx
     They call the final product "THE STEGO-TEXT"
     They send the stego text by email 
 
-Efficient High Capacity Steganography Technique - https://arxiv.org/ftp/arxiv/papers/2004/2004.11984.pdf
+5. Efficient High Capacity Steganography Technique - https://arxiv.org/ftp/arxiv/papers/2004/2004.11984.pdf
 
     They proposed to take the limit from Zeckendorf's theorem for embedding and their embedded capacity extended to almost double when compared to fibonacci methods. 
     It is also secure against RS, POV and DIH.
 
-Steganography Based on Pixel Intensity Value Decomposition - https://arxiv.org/ftp/arxiv/papers/2004/2004.11977.pdf
+6. Steganography Based on Pixel Intensity Value Decomposition - https://arxiv.org/ftp/arxiv/papers/2004/2004.11977.pdf
 
     They are using a method based on 16 virtual bit-planes, the sum of all bit-planes does not exceed the 255 pixel intensity limit. This method has a better payload capacity/stego quality
 than other decomposition methods (doesn't say which).
 
 
-    ==      Possible ideas      ==
+        ==      Possible ideas      ==
 
 Research on how could you hide information inside an audio stream, 
 
