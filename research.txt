@@ -21,7 +21,7 @@ Bayesian optimization - it's used to determine a black box function's optimal pa
 Generative adversarial networks (GANs)- two machines fight each other in a game to get better
 
 Zeckendorf's theorem - any positive integer can be written as a sum of any two non consecutive fibonacci numbers 
-
+LZW - Lempel–Ziv–Welch - Compression algorithm, universal lossless data compression algorithm, used by many applications GIF, TIFF, PostScript, PDF, Unix Compress.
 
 Black-Box Watermarking for Generative Adversarial Networks - https://arxiv.org/pdf/2007.08457.pdf
     
